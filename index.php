@@ -1,8 +1,6 @@
 <?php
 
-require_once "soma.php";
+require_once "file1.php";
+require_once "file2.php";
 
-$num_2 = 2;
-$soma = $num_1 + $num_2;
-
-print "A soma dos números é {$soma}";
+print "A soma dos números é: " . ($num_1 + $num_2);
