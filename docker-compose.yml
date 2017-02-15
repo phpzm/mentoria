@@ -4,7 +4,7 @@ services:
 
   apache-local.app:
     image: ambientum/php:7.0-apache
-    container_name: apache-local.app
+    container_name: apache-mentoria.app
     volumes:
       - .:/var/www/app/public
     ports:
