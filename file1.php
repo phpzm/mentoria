@@ -1,3 +1,3 @@
 <?php
 
-$num_2 = 2;
+return 2;
